@@ -1,0 +1,5 @@
+#Copy Paste these into your crontab file.
+
+*/2     *       *       *       *       /path/to/script/wage-gap.sh \r
+*/4     *       *       *       *       (sleep 30 ; /path/to/script/stop-gap.sh \r)
+
